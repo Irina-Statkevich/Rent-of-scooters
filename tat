@@ -1,0 +1,294 @@
+[33mcommit 962bca3248f8a28bf7b3ab76ef75b5dfc75d989a[m[33m ([m[1;36mHEAD -> [m[1;32mDev[m[33m)[m
+Author: user <sonikyara@mail.ru>
+Date:   Mon Jun 7 09:48:34 2021 +0300
+
+    first
+
+[33mcommit eaa839357839e85397a9289542c685fb77ea16ee[m[33m ([m[1;31morigin/Dev[m[33m)[m
+Author: user <sonikyara@mail.ru>
+Date:   Mon Jun 7 09:33:07 2021 +0300
+
+    small changes
+
+[33mcommit 1fb713e7b5adf4203cfae5f98e4b23b03840a87f[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Thu Jun 3 16:32:30 2021 +0300
+
+    added @Query
+
+[33mcommit 1a48393c04fbc2a22844c5d3e718963116cbb2e2[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Thu Jun 3 16:02:01 2021 +0300
+
+    small remarks
+
+[33mcommit c9cbf67b651cad0d0288070c2fc7df1766c3ec8a[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Thu Jun 3 12:01:14 2021 +0300
+
+    updated tests
+
+[33mcommit 264a282026a866ce79ceacfad2ab7c5839ba0cdc[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Wed Jun 2 15:03:56 2021 +0300
+
+    constraint for liquibase
+
+[33mcommit bced5fc1db7d57296085612d031f578b588bf6d1[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Wed Jun 2 13:56:56 2021 +0300
+
+    correction of comments-pagination tests
+
+[33mcommit 490b03e82de08951aa3f80223997a8b33b62a22f[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Tue Jun 1 18:25:26 2021 +0300
+
+    correction of comments-pagination
+
+[33mcommit d79d85df5b1129a8058aaa7fbaa3f362ae5d153c[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Tue Jun 1 12:09:28 2021 +0300
+
+    correction of comments-part4-aspect
+
+[33mcommit c93e4aa6881ce9f5042eced6e707e8d9b5a656d0[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Mon May 31 15:59:35 2021 +0300
+
+    correction of comments-part3
+
+[33mcommit edb8f1dc477cb5396631134f5a0fcd6eb4c2e675[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Mon May 31 13:08:49 2021 +0300
+
+    correction of comments-part2
+
+[33mcommit cc3aea84f004eb4064912449b4a049984d9a22b9[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Mon May 31 12:17:27 2021 +0300
+
+    correction of comments-part1
+
+[33mcommit a6c2ce53c1d2cdfc933a4042882d5f5182bbaa4b[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Fri May 28 14:25:08 2021 +0300
+
+    1111
+
+[33mcommit fd772a3a34025febc5d03a792dde0411a77ee9ea[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Thu May 27 11:12:39 2021 +0300
+
+    added payments tests
+
+[33mcommit 4584415a26c56d4ab21ce972150879490ce373dd[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Thu May 27 09:18:11 2021 +0300
+
+    added payment
+
+[33mcommit 6d9322bfa99b2a5399af013bfeac73f7a1ee6cb0[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Wed May 26 11:54:29 2021 +0300
+
+    added some more service tests
+
+[33mcommit c0f8c2bc0497aa622b0afb76bec83682eb2d0002[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Tue May 25 15:58:32 2021 +0300
+
+    added some service tests
+
+[33mcommit 7cb1031dd4b0eddde21867d44c063b0cd474b7b8[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Mon May 24 14:40:51 2021 +0300
+
+    try adding tests
+
+[33mcommit d89e4e4ca0fff85db9c07e52c5bd356d6b3fee36[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Fri May 21 16:40:30 2021 +0300
+
+    added jwt
+
+[33mcommit a98ea9dc8e46db053a78205f9be9e906a6a1e8f0[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Fri May 21 11:48:23 2021 +0300
+
+    Reformat Code
+
+[33mcommit 6867cc6dcfe7b60490005dc36763e2639c967ca4[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Fri May 21 10:54:40 2021 +0300
+
+    added endpoints
+
+[33mcommit e02c9709113ffe838ecbf62f8ca62cb397f98bb0[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Thu May 20 10:38:24 2021 +0300
+
+    added JOQL and native query
+
+[33mcommit bef7602282bb82344a290717b78d6f96720ea428[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Wed May 19 16:46:52 2021 +0300
+
+    Rent scooters- get and return
+
+[33mcommit 08c43fd446dafe1bcde0faa0166bba423e81c4b8[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Wed May 19 13:50:39 2021 +0300
+
+    Added dependencyManagement, endpoints
+
+[33mcommit b5855880291365fada3a86ef7de21636a53b2c3e[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Mon May 17 15:49:45 2021 +0300
+
+    Error with  changelog/diff.yaml
+
+[33mcommit 945110fdf49b709d8880c34d06f3905ef949f921[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Sat May 15 14:50:13 2021 +0300
+
+    Added linquiBase
+
+[33mcommit 03b558b60b3811062ffe4be3f807313636cb4800[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Thu May 13 16:00:02 2021 +0300
+
+    Added price
+
+[33mcommit 13e23c3002ac4494528c3b465967845bc53cc94d[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Wed May 12 16:07:28 2021 +0300
+
+    error-Adding ListRent and ScootersByModel
+
+[33mcommit 890cc688e41d1dcb90051bfefcda46d1b23df944[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Wed May 5 12:18:49 2021 +0300
+
+    Validation and GenericDao
+
+[33mcommit ca47712c8178a022da2a5d03de047354295f9430[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Tue May 4 16:12:37 2021 +0300
+
+    SecurityWeb и createQuery
+
+[33mcommit ed77c2d1d843ae8bacdcb9b55250e01ce19437fb[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Tue May 4 12:20:30 2021 +0300
+
+    don't show standard formLogin
+
+[33mcommit df5abe896867cef288a20738d89f5cdeb61aa40b[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Mon May 3 14:55:06 2021 +0300
+
+    errors with security-2 version
+
+[33mcommit e5bb5a965ea191a0028dd5fdd1a03e3ed607664c[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Mon May 3 14:20:27 2021 +0300
+
+    errors with security
+
+[33mcommit 2eb0f5c68323ef035415ecaf95ff6cbfc9ab5c94[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Fri Apr 30 13:35:52 2021 +0300
+
+    add entityManager query. error null role
+
+[33mcommit 5278725cecd535c04c1321757e1ee8d929a00a75[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Thu Apr 29 15:01:53 2021 +0300
+
+    error null
+
+[33mcommit ba40b2ca25f8889ec24056ea59caecf75c3a9b65[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Wed Apr 28 19:54:55 2021 +0300
+
+    from hibernate entityManager
+
+[33mcommit ac52d41c1a870e8f12f721b983d75a1b7844fbcd[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Wed Apr 28 12:49:04 2021 +0300
+
+     changed: repository,genericDAO.
+     comment Transactional(not work)
+
+[33mcommit d3d1d323d01b144b5071126996e1c97e19265303[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Tue Apr 27 17:21:59 2021 +0300
+
+    changes dir
+
+[33mcommit 3cba879131ff83e36ef65d0763da7b76478611ff[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Tue Apr 27 13:13:23 2021 +0300
+
+    endpoint for user created
+
+[33mcommit 82d343af001da56ca316d6b420242199072bf161[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Mon Apr 26 15:05:13 2021 +0300
+
+    started to create endpoint (user)
+
+[33mcommit 0cf60193edafb85593c548f60d57150a87384d4d[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Fri Apr 23 14:11:45 2021 +0300
+
+    Added servlet
+
+[33mcommit ace3a834e4dfbce66115d6e621c2d548505c4ba4[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Fri Apr 23 10:52:04 2021 +0300
+
+    Added abstract classes
+
+[33mcommit 9d43db245168020095ea3b199d2206ab19a1a6c8[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Thu Apr 22 16:22:12 2021 +0300
+
+    Added entities
+
+[33mcommit 43f6cc0a212ebeb7f8f9bef6c0528b310dd477a4[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Wed Apr 21 11:36:09 2021 +0300
+
+    deleted src
+
+[33mcommit 3f964bf4806ef1cc941af4ba5f9e39baf1c1f056[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Wed Apr 21 11:20:32 2021 +0300
+
+    MyCommit
+
+[33mcommit b20a5304a04278b9c6134512db66f4918245f093[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Wed Apr 21 09:57:02 2021 +0300
+
+    settings
+
+[33mcommit 5af8759fe831dee13ab663bc77d6ea0558d72cf2[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Tue Apr 20 17:49:11 2021 +0300
+
+    changed first settings
+
+[33mcommit 30872b8cf42cbb0d7f1dbc866a84a0a546bfd183[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Tue Apr 20 17:48:42 2021 +0300
+
+    changed first settings
+
+[33mcommit b3b9c63c4cbac10e75e82738de18cbed0eee8256[m
+Author: Irisha <sonikyara@mail.ru>
+Date:   Tue Apr 20 16:08:32 2021 +0300
+
+    create project

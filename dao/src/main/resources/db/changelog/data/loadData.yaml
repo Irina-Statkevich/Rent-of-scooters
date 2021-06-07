@@ -1,0 +1,234 @@
+databaseChangeLog:
+- changeSet:
+          id: 1621068887974-14
+          author: Irina
+          changes:
+              - loadData:
+                    columns:
+                        - column:
+                              header: id
+                              name: id
+                              type: NUMERIC
+                        - column:
+                              header: title
+                              name: title
+                              type: STRING
+                    commentLineStartsWith: '#'
+                    encoding: UTF-8
+                    file: start_data/roles.csv
+                    relativeToChangelogFile: true
+                    quotchar: '"'
+                    separator: ','
+                    tableName: roles
+- changeSet:
+    id: 1621068887974-4
+    author: Irina
+    changes:
+    - loadData:
+        columns:
+        - column:
+            header: id
+            name: id
+            type: NUMERIC
+        - column:
+            header: name
+            name: name
+            type: STRING
+        - column:
+            header: phone_number
+            name: phone_number
+            type: STRING
+        - column:
+            header: pass
+            name: pass
+            type: STRING
+        - column:
+            header: role_id
+            name: role_id
+            type: NUMERIC
+        commentLineStartsWith: '#'
+        encoding: UTF-8
+        file: start_data/users.csv
+        relativeToChangelogFile: true
+        quotchar: '"'
+        separator: ','
+        tableName: users
+- changeSet:
+    id: 1621068887974-10
+    author: Irina
+    changes:
+    - loadData:
+        columns:
+        - column:
+            header: id
+            name: id
+            type: NUMERIC
+        - column:
+            header: title
+            name: title
+            type: STRING
+        - column:
+            header: count_of_days
+            name: count_of_days
+            type: NUMERIC
+        commentLineStartsWith: '#'
+        encoding: UTF-8
+        file: start_data/term_of_rent.csv
+        relativeToChangelogFile: true
+        quotchar: '"'
+        separator: ','
+        tableName: term_of_rent
+- changeSet:
+    id: 1621068887974-12
+    author: Irina
+    changes:
+    - loadData:
+        columns:
+        - column:
+            header: id
+            name: id
+            type: NUMERIC
+        - column:
+            header: name
+            name: name
+            type: STRING
+        commentLineStartsWith: '#'
+        encoding: UTF-8
+        file: start_data/producer.csv
+        relativeToChangelogFile: true
+        quotchar: '"'
+        separator: ','
+        tableName: producer
+- changeSet:
+    id: 1621068887974-20
+    author: Irina
+    changes:
+    - loadData:
+        columns:
+        - column:
+            header: id
+            name: id
+            type: NUMERIC
+        - column:
+            header: title
+            name: title
+            type: STRING
+        commentLineStartsWith: '#'
+        encoding: UTF-8
+        file: start_data/type_of_scooter.csv
+        relativeToChangelogFile: true
+        quotchar: '"'
+        separator: ','
+        tableName: type_of_scooter
+- changeSet:
+    id: 1621068887974-16
+    author: Irina
+    changes:
+    - loadData:
+        columns:
+        - column:
+            header: id
+            name: id
+            type: NUMERIC
+        - column:
+            header: name
+            name: name
+            type: STRING
+        - column:
+            header: adress
+            name: adress
+            type: STRING
+        commentLineStartsWith: '#'
+        encoding: UTF-8
+        file: start_data/sellers.csv
+        relativeToChangelogFile: true
+        quotchar: '"'
+        separator: ','
+        tableName: sellers
+- changeSet:
+    id: 1621068887974-18
+    author: Irina
+    changes:
+    - loadData:
+        columns:
+        - column:
+            header: id
+            name: id
+            type: NUMERIC
+        - column:
+            header: type_of_scooter_id
+            name: type_of_scooter_id
+            type: NUMERIC
+        - column:
+            header: producer_id
+            name: producer_id
+            type: NUMERIC
+        commentLineStartsWith: '#'
+        encoding: UTF-8
+        file: start_data/types_producers.csv
+        relativeToChangelogFile: true
+        quotchar: '"'
+        separator: ','
+        tableName: types_producers
+- changeSet:
+    id: 1621068887974-8
+    author: Irina
+    changes:
+    - loadData:
+        columns:
+        - column:
+            header: number
+            name: number
+            type: NUMERIC
+        - column:
+            header: model
+            name: model
+            type: STRING
+        - column:
+            header: seller_id
+            name: seller_id
+            type: NUMERIC
+        - column:
+            header: types_producers_id
+            name: types_producers_id
+            type: NUMERIC
+        - column:
+            header: sum
+            name: sum
+            type: NUMERIC
+        commentLineStartsWith: '#'
+        encoding: UTF-8
+        file: start_data/scooters.csv
+        relativeToChangelogFile: true
+        quotchar: '"'
+        separator: ','
+        tableName: scooters
+- changeSet:
+      id: 1621068887974-6
+      author: Irina
+      changes:
+          - loadData:
+                columns:
+                    - column:
+                          header: id
+                          name: id
+                          type: NUMERIC
+                    - column:
+                          header: scooter_number
+                          name: scooter_number
+                          type: NUMERIC
+                    - column:
+                          header: term_id
+                          name: term_id
+                          type: NUMERIC
+                    - column:
+                          header: price
+                          name: price
+                          type: NUMERIC
+                commentLineStartsWith: '#'
+                encoding: UTF-8
+                file: start_data/price_list.csv
+                relativeToChangelogFile: true
+                quotchar: '"'
+                separator: ','
+                tableName: price_list

@@ -1,0 +1,514 @@
+databaseChangeLog:
+- changeSet:
+    id: 1621068887974-1
+    author: Irina
+    changes:
+    - createTable:
+        columns:
+        - column:
+            autoIncrement: true
+            constraints:
+              nullable: false
+              primaryKey: true
+              primaryKeyName: payment_pk
+            name: id
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: user_id
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: sum
+            type: numeric
+        - column:
+            name: rent_id
+            type: INTEGER
+        tableName: payment
+- changeSet:
+    id: 1621068887974-2
+    author: Irina
+    changes:
+    - createTable:
+        columns:
+        - column:
+            autoIncrement: true
+            constraints:
+              nullable: false
+              primaryKey: true
+              primaryKeyName: rent_pk
+            name: id
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: scooter_number
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: user_id
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: price_id
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: date_start
+            type: date
+        - column:
+            name: date_end
+            type: date
+        tableName: rent
+- changeSet:
+    id: 1621068887974-3
+    author: Irina
+    changes:
+    - createTable:
+        columns:
+        - column:
+            autoIncrement: true
+            constraints:
+              nullable: false
+              primaryKey: true
+              primaryKeyName: users_pk
+            name: id
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: name
+            type: VARCHAR(100)
+        - column:
+            constraints:
+              nullable: false
+            name: phone_number
+            type: VARCHAR(20)
+        - column:
+            constraints:
+              nullable: false
+            name: pass
+            type: VARCHAR(60)
+        - column:
+            constraints:
+              nullable: false
+            name: role_id
+            type: INTEGER
+        tableName: users
+
+- changeSet:
+    id: 1621068887974-5
+    author: Irina
+    changes:
+    - createTable:
+        columns:
+        - column:
+            autoIncrement: true
+            constraints:
+              nullable: false
+              primaryKey: true
+              primaryKeyName: price_list_pk
+            name: id
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: scooter_number
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: term_id
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: price
+            type: numeric
+        tableName: price_list
+
+- changeSet:
+    id: 1621068887974-7
+    author: Irina
+    changes:
+    - createTable:
+        columns:
+        - column:
+            autoIncrement: true
+            constraints:
+              nullable: false
+              primaryKey: true
+              primaryKeyName: scooters_pk
+            name: number
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: model
+            type: VARCHAR(100)
+        - column:
+            constraints:
+              nullable: false
+            name: seller_id
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: types_producers_id
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: sum
+            type: numeric
+        tableName: scooters
+
+- changeSet:
+    id: 1621068887974-9
+    author: Irina
+    changes:
+    - createTable:
+        columns:
+        - column:
+            autoIncrement: true
+            constraints:
+              nullable: false
+              primaryKey: true
+              primaryKeyName: term_of_rent_pk
+            name: id
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: title
+            type: VARCHAR(20)
+        - column:
+            constraints:
+              nullable: false
+            name: count_of_days
+            type: INTEGER
+        tableName: term_of_rent
+- changeSet:
+    id: 1621068887974-11
+    author: Irina
+    changes:
+    - createTable:
+        columns:
+        - column:
+            autoIncrement: true
+            constraints:
+              nullable: false
+              primaryKey: true
+              primaryKeyName: producer_pk
+            name: id
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: name
+            type: VARCHAR(50)
+        tableName: producer
+- changeSet:
+    id: 1621068887974-13
+    author: Irina
+    changes:
+    - createTable:
+        columns:
+        - column:
+            autoIncrement: true
+            constraints:
+              nullable: false
+              primaryKey: true
+              primaryKeyName: roles_pk
+            name: id
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: title
+            type: VARCHAR(50)
+        tableName: roles
+
+- changeSet:
+    id: 1621068887974-15
+    author: Irina
+    changes:
+    - createTable:
+        columns:
+        - column:
+            autoIncrement: true
+            constraints:
+              nullable: false
+              primaryKey: true
+              primaryKeyName: sellers_pk
+            name: id
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: name
+            type: VARCHAR(50)
+        - column:
+            constraints:
+              nullable: false
+            name: adress
+            type: VARCHAR(100)
+        tableName: sellers
+
+- changeSet:
+    id: 1621068887974-17
+    author: Irina
+    changes:
+    - createTable:
+        columns:
+        - column:
+            autoIncrement: true
+            constraints:
+              nullable: false
+              primaryKey: true
+              primaryKeyName: types_producers_pk
+            name: id
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: type_of_scooter_id
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: producer_id
+            type: INTEGER
+        tableName: types_producers
+
+- changeSet:
+    id: 1621068887974-19
+    author: Irina
+    changes:
+    - createTable:
+        columns:
+        - column:
+            autoIncrement: true
+            constraints:
+              nullable: false
+              primaryKey: true
+              primaryKeyName: type_of_scooter_pk
+            name: id
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: title
+            type: VARCHAR(50)
+        tableName: type_of_scooter
+
+- changeSet:
+    id: 1621068887974-21
+    author: Irina
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: price_id
+        baseTableName: rent
+        constraintName: rent_price_id_fkey
+        deferrable: false
+        initiallyDeferred: false
+        onDelete: NO ACTION
+        onUpdate: NO ACTION
+        referencedColumnNames: id
+        referencedTableName: price_list
+        validate: true
+- changeSet:
+    id: 1621068887974-22
+    author: Irina
+    changes:
+    - addUniqueConstraint:
+        columnNames: title, count_of_days
+        constraintName: term_uniq
+        tableName: term_of_rent
+- changeSet:
+    id: 1621068887974-23
+    author: Irina
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: producer_id
+        baseTableName: types_producers
+        constraintName: types_producers_producer_id_fkey
+        deferrable: false
+        initiallyDeferred: false
+        onDelete: NO ACTION
+        onUpdate: NO ACTION
+        referencedColumnNames: id
+        referencedTableName: producer
+        validate: true
+- changeSet:
+    id: 1621068887974-24
+    author: Irina
+    changes:
+    - addUniqueConstraint:
+        columnNames: title
+        constraintName: roles_uniq
+        tableName: roles
+- changeSet:
+    id: 1621068887974-25
+    author: Irina
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: role_id
+        baseTableName: users
+        constraintName: users_role_id_fkey
+        deferrable: false
+        initiallyDeferred: false
+        onDelete: NO ACTION
+        onUpdate: NO ACTION
+        referencedColumnNames: id
+        referencedTableName: roles
+        validate: true
+- changeSet:
+    id: 1621068887974-26
+    author: Irina
+    changes:
+    - addUniqueConstraint:
+        columnNames: producer_id, type_of_scooter_id
+        constraintName: types_producers_uniq
+        tableName: types_producers
+- changeSet:
+    id: 1621068887974-27
+    author: Irina
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: type_of_scooter_id
+        baseTableName: types_producers
+        constraintName: types_producers_type_of_scooter_id_fkey
+        deferrable: false
+        initiallyDeferred: false
+        onDelete: NO ACTION
+        onUpdate: NO ACTION
+        referencedColumnNames: id
+        referencedTableName: type_of_scooter
+        validate: true
+- changeSet:
+    id: 1621068887974-28
+    author: Irina
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: rent_id
+        baseTableName: payment
+        constraintName: payment_rent_id_fkey
+        deferrable: false
+        initiallyDeferred: false
+        onDelete: NO ACTION
+        onUpdate: NO ACTION
+        referencedColumnNames: id
+        referencedTableName: rent
+        validate: true
+- changeSet:
+    id: 1621068887974-29
+    author: Irina
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: user_id
+        baseTableName: payment
+        constraintName: payment_user_id_fkey
+        deferrable: false
+        initiallyDeferred: false
+        onDelete: NO ACTION
+        onUpdate: NO ACTION
+        referencedColumnNames: id
+        referencedTableName: users
+        validate: true
+- changeSet:
+    id: 1621068887974-30
+    author: Irina
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: scooter_number
+        baseTableName: rent
+        constraintName: rent_scooter_number_fkey
+        deferrable: false
+        initiallyDeferred: false
+        onDelete: NO ACTION
+        onUpdate: NO ACTION
+        referencedColumnNames: number
+        referencedTableName: scooters
+        validate: true
+- changeSet:
+    id: 1621068887974-31
+    author: Irina
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: user_id
+        baseTableName: rent
+        constraintName: rent_user_id_fkey
+        deferrable: false
+        initiallyDeferred: false
+        onDelete: NO ACTION
+        onUpdate: NO ACTION
+        referencedColumnNames: id
+        referencedTableName: users
+        validate: true
+- changeSet:
+    id: 1621068887974-32
+    author: Irina
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: scooter_number
+        baseTableName: price_list
+        constraintName: price_list_scooter_number_fkey
+        deferrable: false
+        initiallyDeferred: false
+        onDelete: NO ACTION
+        onUpdate: NO ACTION
+        referencedColumnNames: number
+        referencedTableName: scooters
+        validate: true
+- changeSet:
+    id: 1621068887974-33
+    author: Irina
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: term_id
+        baseTableName: price_list
+        constraintName: price_list_term_id_fkey
+        deferrable: false
+        initiallyDeferred: false
+        onDelete: NO ACTION
+        onUpdate: NO ACTION
+        referencedColumnNames: id
+        referencedTableName: term_of_rent
+        validate: true
+- changeSet:
+    id: 1621068887974-34
+    author: Irina
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: seller_id
+        baseTableName: scooters
+        constraintName: scooters_seller_id_fkey
+        deferrable: false
+        initiallyDeferred: false
+        onDelete: NO ACTION
+        onUpdate: NO ACTION
+        referencedColumnNames: id
+        referencedTableName: sellers
+        validate: true
+- changeSet:
+    id: 1621068887974-35
+    author: Irina
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: types_producers_id
+        baseTableName: scooters
+        constraintName: scooters_types_producers_id_fkey
+        deferrable: false
+        initiallyDeferred: false
+        onDelete: NO ACTION
+        onUpdate: NO ACTION
+        referencedColumnNames: id
+        referencedTableName: types_producers
+        validate: true
+
